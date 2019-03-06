@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["AsService","Wraps an `HttpService` reference, implementing `tower_service::Service`."],["IntoBufStream","Wraps a `Body` instance, implementing `tokio_buf::BufStream`."],["IntoService","Wraps an `HttpService` instance, implementing `tower_service::Service`."]],"trait":[["BodyExt","An extension trait for `Body` providing additional adapters."]]});

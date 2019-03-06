@@ -1,0 +1,1 @@
+initSidebarItems({"mod":[["util","Types and utilities for working with `HttpService` and `Body`."]],"trait":[["Body","Trait representing a streaming body of a Request or Response."],["HttpService","An HTTP service"]]});
