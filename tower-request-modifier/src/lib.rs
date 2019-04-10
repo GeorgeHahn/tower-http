@@ -93,10 +93,7 @@ where
     }
 }
 
-impl<T, B> Clone for RequestModifier<T, B>
-where
-    T: Clone,
-{
+impl<T: Clone, B> Clone for RequestModifier<T, B> {
     fn clone(&self) -> Self {
         RequestModifier {
             inner: self.inner.clone(),
